@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tituloBior{
+   background-color: black;
+    
+}
+.logoBior{
+    margin-left: 70px;
+    max-width:20%;
+    max-height:20%;    
+}

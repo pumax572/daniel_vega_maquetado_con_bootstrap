@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tituloBior{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+    
+}
+.logoBior{
+    margin-left: 70px;
+    max-width:20%;
+    max-height:20%;    
+}

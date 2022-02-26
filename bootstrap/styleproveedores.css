@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.contenedor{
+    background-color: rgb(194, 241, 194);
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    
+}
+.formularioProveedores{
+    margin-left: 200px;
+    margin-right: 170px;
+    padding: 20px;
+}
+
+.field{
+    border:black solid 1px;
+    padding: 10px; 
+}
+
+input, textarea{
+    width: 280px;
+    outline: black; 
+}
+.contenedor>div{
+    background-color: wheat;
+    
+    border-radius: 4px;
+}
+.contenedor .headerIndex{
+    background-color: wheat;
+    
+    border-radius: 4px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.contenedor .piedeIndex{
+    background-color: wheat;
+    
+    border-radius: 4px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+.contenedor .headerIndex{
+    background-color: green;
+    color: black;
+}
+
+.footerImagen{
+    
+    max-width: 40%;
+    max-height: 40%;
+    bottom: 0;
+    margin-bottom: 5%;
+    margin-top: 35%;
+    margin-left: 5%;
+    }
+
+
+
+.headerIndex{
+    background-color: rgb(26, 107, 26);
+    color: white;
+    padding: 2rem 0;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logoBior{
+    margin-left: 70px;
+    max-width:20%;
+    max-height:20%;    
+}
+
+.tituloBior{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+}
+.navigation ul{
+    margin:0;
+    padding:0;
+    list-style: none; 
+}
+
+
+.navigation ul {
+     display: flex;
+    list-style: none;
+    
+}
+.navigation ul ul{
+    display: none;
+}
+.navigation a {
+    
+    padding: 15px 20px;
+    text-decoration: none;
+    line-height: 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.navigation a hover{
+    background-color: grey;
+    
+}
+.navigation a i{
+    margin-left: 10px;
+}
+.navigation ul li:hover> ul {
+ opacity: 0.9;
+ transition: all 0.3 sec ease;
+ display: inline-block;
+ position: absolute;
+}
+
+    
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background:rgba(255, 255, 255, 0.973);
+    opacity: 0.9;
+
+}
+@media only screen and (max-width:769px) and (min-width:200px)
+
+{
+    .navigation{
+        display: block;
+        
+        max-width: 769px;
+    }
+    .navigation{
+        position:relative;
+        background-color: rgb(136, 197, 112);
+    }
+    .navigation ul{
+        flex-direction: column;
+       
+    }
+    .navigation li{
+        border: 1px solid black;
+       
+    }
+    .navigation ul li ul li{
+        background-color: white
+        
+    }
+
+      
+    .logoBior{
+        margin-left: 10px;
+        max-width:95px;
+        max-height:86px; 
+          
+    }
+   
+   
+}
+@media only screen and (max-width:1920px) and (min-width:769px)
+{
+   
+    .logoBior{
+        margin-left: 10px;
+        max-width:100px;
+        max-height:90px; 
+           
+    }
+ 
+  
+  
+}
